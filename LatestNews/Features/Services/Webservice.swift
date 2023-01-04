@@ -10,7 +10,7 @@ import Alamofire
 enum LatestNewsWebServiceEndPoint: String {
     case BASE_URL = "https://newsapi.org/v2"
     case PATH = "/top-headlines?country=us&apiKey="
-    case API_KEY = "2cf47fd0502144d590c46bf2a61d7892"
+    case API_KEY = "YOUR_API_KEY"
     
     static func newsPath() -> String {
         "\(BASE_URL.rawValue)\(PATH.rawValue)\(API_KEY.rawValue)"
